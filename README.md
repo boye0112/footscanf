@@ -1,15 +1,32 @@
 # ⚽ FOOTSCANF
 
+## Prérequis
+
+Avant tout, installe **Node.js** sur ta machine :
+- Va sur **https://nodejs.org**
+- Télécharge la version **LTS** (bouton vert à gauche)
+- Lance l'installeur et suis les étapes
+- **Redémarre ton PC** après l'installation
+
 ## Installation
 
+Ouvre un terminal (cmd sur Windows, Terminal sur Mac) dans le dossier footscanf :
+
+**Windows (cmd) :**
 ```
+cd C:\Users\TonNom\Downloads\footscanf
 npm install
 npm start
 ```
 
-Puis ouvre **http://localhost:3000**
+**Mac / Linux :**
+```
+cd ~/Downloads/footscanf
+npm install
+npm start
+```
 
-## Pas besoin de clé Claude !
+Puis ouvre **http://localhost:3000** dans ton navigateur.
 
 La prédiction est faite par un algorithme basé sur :
 - Classement & points
